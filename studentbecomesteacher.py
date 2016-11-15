@@ -30,3 +30,7 @@ def get_average(student):
     
 def get_class_average(students):
     return average([get_average(student) for student in students])
+
+
+students = [lloyd, alice, tyler]
+print get_class_average(students)
